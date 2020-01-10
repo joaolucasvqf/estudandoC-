@@ -12,6 +12,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MinhasTarefasAPI.Database;
+using MinhasTarefasAPI.Repositories;
+using MinhasTarefasAPI.Repositories.Contracts;
 
 namespace MinhasTarefasAPI
 {
@@ -30,6 +32,9 @@ namespace MinhasTarefasAPI
             services.AddDbContext<MinhasTarefasContext>(op => {
                 op.UseSqlite("Data Source=Database\\MinhasTarefas.db");
             });
+            /* Injeção do repositories */
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<ITarefaRepository, TarefaRepository>();
             services.AddControllers();
         }
 
