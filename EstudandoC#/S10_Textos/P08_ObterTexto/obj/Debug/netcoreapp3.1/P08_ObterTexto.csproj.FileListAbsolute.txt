@@ -1,0 +1,10 @@
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\bin\Debug\netcoreapp3.1\P08_ObterTexto.exe
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\bin\Debug\netcoreapp3.1\P08_ObterTexto.deps.json
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\bin\Debug\netcoreapp3.1\P08_ObterTexto.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\bin\Debug\netcoreapp3.1\P08_ObterTexto.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\bin\Debug\netcoreapp3.1\P08_ObterTexto.dll
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\bin\Debug\netcoreapp3.1\P08_ObterTexto.pdb
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\obj\Debug\netcoreapp3.1\P08_ObterTexto.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\obj\Debug\netcoreapp3.1\P08_ObterTexto.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\obj\Debug\netcoreapp3.1\P08_ObterTexto.dll
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P08_ObterTexto\obj\Debug\netcoreapp3.1\P08_ObterTexto.pdb

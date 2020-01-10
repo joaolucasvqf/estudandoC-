@@ -1,0 +1,11 @@
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\bin\Debug\netcoreapp3.1\P02_Sobrescrita.exe
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\bin\Debug\netcoreapp3.1\P02_Sobrescrita.deps.json
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\bin\Debug\netcoreapp3.1\P02_Sobrescrita.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\bin\Debug\netcoreapp3.1\P02_Sobrescrita.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\bin\Debug\netcoreapp3.1\P02_Sobrescrita.dll
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\bin\Debug\netcoreapp3.1\P02_Sobrescrita.pdb
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\obj\Debug\netcoreapp3.1\P02_Sobrescrita.csprojAssemblyReference.cache
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\obj\Debug\netcoreapp3.1\P02_Sobrescrita.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\obj\Debug\netcoreapp3.1\P02_Sobrescrita.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\obj\Debug\netcoreapp3.1\P02_Sobrescrita.dll
+C:\Projetos\Joao\EstudandoC#\S07\P02_Sobrescrita\obj\Debug\netcoreapp3.1\P02_Sobrescrita.pdb

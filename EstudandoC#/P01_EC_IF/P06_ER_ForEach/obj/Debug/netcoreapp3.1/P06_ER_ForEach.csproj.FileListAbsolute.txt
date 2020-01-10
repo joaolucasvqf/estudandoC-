@@ -1,0 +1,10 @@
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\bin\Debug\netcoreapp3.1\P06_ER_ForEach.exe
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\bin\Debug\netcoreapp3.1\P06_ER_ForEach.deps.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\bin\Debug\netcoreapp3.1\P06_ER_ForEach.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\bin\Debug\netcoreapp3.1\P06_ER_ForEach.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\bin\Debug\netcoreapp3.1\P06_ER_ForEach.dll
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\bin\Debug\netcoreapp3.1\P06_ER_ForEach.pdb
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\obj\Debug\netcoreapp3.1\P06_ER_ForEach.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\obj\Debug\netcoreapp3.1\P06_ER_ForEach.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\obj\Debug\netcoreapp3.1\P06_ER_ForEach.dll
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\P06_ER_ForEach\obj\Debug\netcoreapp3.1\P06_ER_ForEach.pdb

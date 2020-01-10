@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_Comentarios", "P01_ComentarioSimples\P01_Comentarios.csproj", "{1E4F9A80-12E2-4DB5-9F82-32F6AA60B0B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E4F9A80-12E2-4DB5-9F82-32F6AA60B0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4F9A80-12E2-4DB5-9F82-32F6AA60B0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4F9A80-12E2-4DB5-9F82-32F6AA60B0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4F9A80-12E2-4DB5-9F82-32F6AA60B0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {871D6AB2-A2A2-42E4-A591-A7388963EE10}
+	EndGlobalSection
+EndGlobal

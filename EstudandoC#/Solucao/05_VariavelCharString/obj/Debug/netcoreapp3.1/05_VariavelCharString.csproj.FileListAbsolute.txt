@@ -1,0 +1,10 @@
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\bin\Debug\netcoreapp3.1\05_VariavelCharString.exe
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\bin\Debug\netcoreapp3.1\05_VariavelCharString.deps.json
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\bin\Debug\netcoreapp3.1\05_VariavelCharString.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\bin\Debug\netcoreapp3.1\05_VariavelCharString.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\bin\Debug\netcoreapp3.1\05_VariavelCharString.dll
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\bin\Debug\netcoreapp3.1\05_VariavelCharString.pdb
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\obj\Debug\netcoreapp3.1\05_VariavelCharString.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\obj\Debug\netcoreapp3.1\05_VariavelCharString.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\obj\Debug\netcoreapp3.1\05_VariavelCharString.dll
+C:\Projetos\Joao\EstudandoC#\Solucao\05_VariavelCharString\obj\Debug\netcoreapp3.1\05_VariavelCharString.pdb

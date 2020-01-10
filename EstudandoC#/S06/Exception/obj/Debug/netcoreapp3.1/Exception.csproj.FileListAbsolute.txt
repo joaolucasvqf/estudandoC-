@@ -1,0 +1,11 @@
+C:\Projetos\Joao\EstudandoC#\S06\Exception\bin\Debug\netcoreapp3.1\Exception.exe
+C:\Projetos\Joao\EstudandoC#\S06\Exception\bin\Debug\netcoreapp3.1\Exception.deps.json
+C:\Projetos\Joao\EstudandoC#\S06\Exception\bin\Debug\netcoreapp3.1\Exception.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\S06\Exception\bin\Debug\netcoreapp3.1\Exception.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\S06\Exception\bin\Debug\netcoreapp3.1\Exception.dll
+C:\Projetos\Joao\EstudandoC#\S06\Exception\bin\Debug\netcoreapp3.1\Exception.pdb
+C:\Projetos\Joao\EstudandoC#\S06\Exception\obj\Debug\netcoreapp3.1\Exception.csprojAssemblyReference.cache
+C:\Projetos\Joao\EstudandoC#\S06\Exception\obj\Debug\netcoreapp3.1\Exception.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\S06\Exception\obj\Debug\netcoreapp3.1\Exception.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\S06\Exception\obj\Debug\netcoreapp3.1\Exception.dll
+C:\Projetos\Joao\EstudandoC#\S06\Exception\obj\Debug\netcoreapp3.1\Exception.pdb

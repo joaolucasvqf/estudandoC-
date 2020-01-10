@@ -1,0 +1,11 @@
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\bin\Debug\netcoreapp3.1\S4E1_POO e ER.exe
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\bin\Debug\netcoreapp3.1\S4E1_POO e ER.deps.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\bin\Debug\netcoreapp3.1\S4E1_POO e ER.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\bin\Debug\netcoreapp3.1\S4E1_POO e ER.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\bin\Debug\netcoreapp3.1\S4E1_POO e ER.dll
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\bin\Debug\netcoreapp3.1\S4E1_POO e ER.pdb
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\obj\Debug\netcoreapp3.1\S4E1_POO e ER.csprojAssemblyReference.cache
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\obj\Debug\netcoreapp3.1\S4E1_POO e ER.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\obj\Debug\netcoreapp3.1\S4E1_POO e ER.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\obj\Debug\netcoreapp3.1\S4E1_POO e ER.dll
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\S4E1\obj\Debug\netcoreapp3.1\S4E1_POO e ER.pdb

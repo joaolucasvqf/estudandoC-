@@ -1,0 +1,10 @@
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\bin\Debug\netcoreapp3.1\P07_Break_Continue.exe
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\bin\Debug\netcoreapp3.1\P07_Break_Continue.deps.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\bin\Debug\netcoreapp3.1\P07_Break_Continue.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\bin\Debug\netcoreapp3.1\P07_Break_Continue.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\bin\Debug\netcoreapp3.1\P07_Break_Continue.dll
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\bin\Debug\netcoreapp3.1\P07_Break_Continue.pdb
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\obj\Debug\netcoreapp3.1\P07_Break_Continue.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\obj\Debug\netcoreapp3.1\P07_Break_Continue.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\obj\Debug\netcoreapp3.1\P07_Break_Continue.dll
+C:\Projetos\Joao\EstudandoC#\P01_EC_IF\07_Break_Continue\obj\Debug\netcoreapp3.1\P07_Break_Continue.pdb

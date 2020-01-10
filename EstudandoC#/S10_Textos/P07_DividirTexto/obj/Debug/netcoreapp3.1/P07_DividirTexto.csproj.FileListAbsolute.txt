@@ -1,0 +1,10 @@
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\bin\Debug\netcoreapp3.1\P07_DividirTexto.exe
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\bin\Debug\netcoreapp3.1\P07_DividirTexto.deps.json
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\bin\Debug\netcoreapp3.1\P07_DividirTexto.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\bin\Debug\netcoreapp3.1\P07_DividirTexto.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\bin\Debug\netcoreapp3.1\P07_DividirTexto.dll
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\bin\Debug\netcoreapp3.1\P07_DividirTexto.pdb
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\obj\Debug\netcoreapp3.1\P07_DividirTexto.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\obj\Debug\netcoreapp3.1\P07_DividirTexto.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\obj\Debug\netcoreapp3.1\P07_DividirTexto.dll
+C:\Projetos\Joao\EstudandoC#\S10_Textos\P07_DividirTexto\obj\Debug\netcoreapp3.1\P07_DividirTexto.pdb

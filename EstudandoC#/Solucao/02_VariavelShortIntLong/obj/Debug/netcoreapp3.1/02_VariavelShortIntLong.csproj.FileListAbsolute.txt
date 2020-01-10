@@ -1,0 +1,10 @@
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\bin\Debug\netcoreapp3.1\02_VariavelShortIntLong.exe
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\bin\Debug\netcoreapp3.1\02_VariavelShortIntLong.deps.json
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\bin\Debug\netcoreapp3.1\02_VariavelShortIntLong.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\bin\Debug\netcoreapp3.1\02_VariavelShortIntLong.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\bin\Debug\netcoreapp3.1\02_VariavelShortIntLong.dll
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\bin\Debug\netcoreapp3.1\02_VariavelShortIntLong.pdb
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\obj\Debug\netcoreapp3.1\02_VariavelShortIntLong.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\obj\Debug\netcoreapp3.1\02_VariavelShortIntLong.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\obj\Debug\netcoreapp3.1\02_VariavelShortIntLong.dll
+C:\Projetos\Joao\EstudandoC#\Solucao\02_VariavelShortIntLong\obj\Debug\netcoreapp3.1\02_VariavelShortIntLong.pdb

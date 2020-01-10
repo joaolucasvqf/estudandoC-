@@ -1,0 +1,11 @@
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\bin\Debug\netcoreapp3.1\P02_Exception.exe
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\bin\Debug\netcoreapp3.1\P02_Exception.deps.json
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\bin\Debug\netcoreapp3.1\P02_Exception.runtimeconfig.json
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\bin\Debug\netcoreapp3.1\P02_Exception.runtimeconfig.dev.json
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\bin\Debug\netcoreapp3.1\P02_Exception.dll
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\bin\Debug\netcoreapp3.1\P02_Exception.pdb
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\obj\Debug\netcoreapp3.1\P02_Exception.csprojAssemblyReference.cache
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\obj\Debug\netcoreapp3.1\P02_Exception.AssemblyInfoInputs.cache
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\obj\Debug\netcoreapp3.1\P02_Exception.AssemblyInfo.cs
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\obj\Debug\netcoreapp3.1\P02_Exception.dll
+C:\Projetos\Joao\EstudandoC#\S06\P02_Exception\obj\Debug\netcoreapp3.1\P02_Exception.pdb
