@@ -1,10 +1,10 @@
-﻿using MinhasTarefasAPI.Database;
+﻿using Microsoft.AspNetCore.Identity;
+using MinhasTarefasAPI.Database;
 using MinhasTarefasAPI.Models;
 using MinhasTarefasAPI.Repositories.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace MinhasTarefasAPI.Repositories
 {
@@ -15,7 +15,7 @@ namespace MinhasTarefasAPI.Repositories
         {
             _banco = banco;
         }
-        public List<Tarefa> Restauracao(ApplicationUser usuario, DateTime dataUltimaSincronizacao)
+        public List<Tarefa> Restauracao(IdentityUser usuario, DateTime dataUltimaSincronizacao)
         {
             var query = _banco.Tarefas.Where(a => a.UsuarioId == usuario.Id).AsQueryable();
             if (dataUltimaSincronizacao != null)

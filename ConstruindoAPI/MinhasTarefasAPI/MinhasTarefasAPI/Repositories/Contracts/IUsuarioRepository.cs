@@ -1,14 +1,11 @@
-﻿using MinhasTarefasAPI.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Identity;
+using MinhasTarefasAPI.Models;
 
 namespace MinhasTarefasAPI.Repositories.Contracts
 {
-    interface IUsuarioRepository
+    public interface IUsuarioRepository
     {
-        void Cadastrar(ApplicationUser usuario, string senha);
-        ApplicationUser Obter(string email, string senha);
+        void Cadastrar(IdentityUser usuario, string senha);
+        IdentityUser Obter(string email, string senha);
     }
 }

@@ -1,17 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using MinhasTarefasAPI.Database;
+using MinhasTarefasAPI.Models;
 using MinhasTarefasAPI.Repositories;
 using MinhasTarefasAPI.Repositories.Contracts;
 
@@ -27,7 +22,7 @@ namespace MinhasTarefasAPI
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public static void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<MinhasTarefasContext>(op => {
                 op.UseSqlite("Data Source=Database\\MinhasTarefas.db");
@@ -36,10 +31,11 @@ namespace MinhasTarefasAPI
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<ITarefaRepository, TarefaRepository>();
             services.AddControllers();
+            services.AddIdentityCore<IdentityUser>().AddEntityFrameworkStores<MinhasTarefasContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public static void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -51,6 +47,10 @@ namespace MinhasTarefasAPI
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseStatusCodePages();
+
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
