@@ -133,3 +133,4 @@ C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\bin\Debug\netc
 C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netcoreapp3.1\MinhasTarefasAPI.RazorTargetAssemblyInfo.cache
 C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netcoreapp3.1\MinhasTarefasAPI.dll
 C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netcoreapp3.1\MinhasTarefasAPI.pdb
+C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netcoreapp3.1\MinhasTarefasAPI.csprojAssemblyReference.cache

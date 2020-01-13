@@ -15,7 +15,7 @@ namespace MinhasTarefasAPI.Repositories
         {
             _banco = banco;
         }
-        public List<Tarefa> Restauracao(IdentityUser usuario, DateTime dataUltimaSincronizacao)
+        public List<Tarefa> Restauracao(ApplicationUser usuario, DateTime dataUltimaSincronizacao)
         {
             var query = _banco.Tarefas.Where(a => a.UsuarioId == usuario.Id).AsQueryable();
             if (dataUltimaSincronizacao != null)

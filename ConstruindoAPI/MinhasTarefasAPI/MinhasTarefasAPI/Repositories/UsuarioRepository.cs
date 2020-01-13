@@ -8,12 +8,12 @@ namespace MinhasTarefasAPI.Repositories
 {
     public class UsuarioRepository : IUsuarioRepository
     {
-        private readonly UserManager<IdentityUser> _userManager;
-        public UsuarioRepository(UserManager<IdentityUser> userManager)
+        private readonly UserManager<ApplicationUser> _userManager;
+        public UsuarioRepository(UserManager<ApplicationUser> userManager)
         {
             _userManager = userManager;
         }
-        public IdentityUser Obter(string email, string senha)
+        public ApplicationUser Obter(string email, string senha)
         {
             var usuario = _userManager.FindByEmailAsync(email).Result;
             if (_userManager.CheckPasswordAsync(usuario, senha).Result)
@@ -28,7 +28,7 @@ namespace MinhasTarefasAPI.Repositories
                 throw new Exception("Usuário ou senha incorretos");
             }
         }
-        public void Cadastrar(IdentityUser usuario, string senha)
+        public void Cadastrar(ApplicationUser usuario, string senha)
         {
             var result = _userManager.CreateAsync(usuario, senha).Result;
             if (!result.Succeeded)

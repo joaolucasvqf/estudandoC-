@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +25,9 @@ namespace MinhasTarefasAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public static void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<ApiBehaviorOptions>(op => {
+                op.SuppressModelStateInvalidFilter = true;
+            });
             services.AddDbContext<MinhasTarefasContext>(op => {
                 op.UseSqlite("Data Source=Database\\MinhasTarefas.db");
             });
@@ -31,7 +35,10 @@ namespace MinhasTarefasAPI
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<ITarefaRepository, TarefaRepository>();
             services.AddControllers();
-            services.AddIdentityCore<IdentityUser>().AddEntityFrameworkStores<MinhasTarefasContext>();
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                    .AddEntityFrameworkStores<MinhasTarefasContext>()
+                    .AddDefaultTokenProviders();
+            services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -5,7 +5,7 @@ namespace MinhasTarefasAPI.Repositories.Contracts
 {
     public interface IUsuarioRepository
     {
-        void Cadastrar(IdentityUser usuario, string senha);
-        IdentityUser Obter(string email, string senha);
+        void Cadastrar(ApplicationUser usuario, string senha);
+        ApplicationUser Obter(string email, string senha);
     }
 }

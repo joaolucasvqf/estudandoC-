@@ -5,7 +5,7 @@ using MinhasTarefasAPI.Models;
 
 namespace MinhasTarefasAPI.Database
 {
-    public class MinhasTarefasContext : IdentityDbContext<IdentityUser>
+    public class MinhasTarefasContext : IdentityDbContext<ApplicationUser>
     {
         public MinhasTarefasContext(DbContextOptions<MinhasTarefasContext> options) : base(options)
         {

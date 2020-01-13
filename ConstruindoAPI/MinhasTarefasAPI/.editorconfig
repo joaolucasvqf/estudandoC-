@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0058: O valor da expressão nunca é usado
+csharp_style_unused_value_expression_statement_preference = discard_variable:none
+
+# CA1062: Validar argumentos de métodos públicos
+dotnet_diagnostic.CA1062.severity = none
