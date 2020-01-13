@@ -18,6 +18,7 @@ namespace MinhasTarefasAPI.Repositories
         public List<Tarefa> Restauracao(ApplicationUser usuario, DateTime dataUltimaSincronizacao)
         {
             var query = _banco.Tarefas.Where(a => a.UsuarioId == usuario.Id).AsQueryable();
+
             if (dataUltimaSincronizacao != null)
             {
                 query.Where(a => a.Criado >= dataUltimaSincronizacao || a.Atualizado >= dataUltimaSincronizacao);
@@ -27,7 +28,9 @@ namespace MinhasTarefasAPI.Repositories
 
         public List<Tarefa> Sincronizacao(List<Tarefa> tarefas)
         {
-            var tarefasNovas = tarefas.Where(a => a.IdTarefaApi == 0);
+            var tarefasNovas = tarefas.Where(a => a.IdTarefaApi == 0).ToList();
+            var tarefasExcluidasAtualizadas = tarefas.Where(a => a.IdTarefaApi != 0).ToList();
+
             //Cadastrar novos registros
             if (tarefasNovas.Count() > 0)
             {
@@ -37,7 +40,6 @@ namespace MinhasTarefasAPI.Repositories
                 }
             }
 
-            var tarefasExcluidasAtualizadas = tarefas.Where(a => a.IdTarefaApi != 0);
             //Atualizacao de registros excluídos
             if (tarefasExcluidasAtualizadas.Count() > 0)
             {

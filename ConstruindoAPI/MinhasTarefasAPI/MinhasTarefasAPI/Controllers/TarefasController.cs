@@ -26,17 +26,18 @@ namespace MinhasTarefasAPI.Controllers
         {
             return Ok(new Tarefa());
         }
-        [Authorize]
+        //[Authorize]
         [HttpPost("sincronizar")]
         public ActionResult Sincronizar([FromBody]List<Tarefa> tarefas)
         {
             return Ok(_tarefaRepository.Sincronizacao(tarefas));
         }
-        [Authorize]
+        //[Authorize]
         [HttpGet("restaurar")]
         public ActionResult Restaurar(DateTime data)
         {
             var usuario = _userManager.GetUserAsync(HttpContext.User).Result;
+
             return Ok(_tarefaRepository.Restauracao(usuario, data));
         }
     }
