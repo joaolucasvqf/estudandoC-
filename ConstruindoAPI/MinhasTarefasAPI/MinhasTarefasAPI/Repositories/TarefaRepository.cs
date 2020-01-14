@@ -45,7 +45,7 @@ namespace MinhasTarefasAPI.Repositories
             {
                 foreach (var tarefa in tarefasExcluidasAtualizadas)
                 {
-                    _banco.Tarefas.Add(tarefa);
+                    _banco.Tarefas.Update(tarefa);
                 }
             }
             

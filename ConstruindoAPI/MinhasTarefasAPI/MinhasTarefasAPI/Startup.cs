@@ -10,6 +10,7 @@ using MinhasTarefasAPI.Database;
 using MinhasTarefasAPI.Models;
 using MinhasTarefasAPI.Repositories;
 using MinhasTarefasAPI.Repositories.Contracts;
+using Newtonsoft.Json;
 
 namespace MinhasTarefasAPI
 {
@@ -38,7 +39,12 @@ namespace MinhasTarefasAPI
             services.AddIdentity<ApplicationUser, IdentityRole>()
                     .AddEntityFrameworkStores<MinhasTarefasContext>()
                     .AddDefaultTokenProviders();
-            services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
+            services.AddMvc()
+                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
+            services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

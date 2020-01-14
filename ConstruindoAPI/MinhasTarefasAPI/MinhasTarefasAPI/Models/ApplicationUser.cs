@@ -9,6 +9,6 @@ namespace MinhasTarefasAPI.Models
         public string FullName { get; set; }
 
         [ForeignKey("UsuarioId")]
-        public virtual ICollection<Tarefa> Tarefas { get; set; }
+        public virtual ICollection<Tarefa> Tarefas { get; }
     }
 }

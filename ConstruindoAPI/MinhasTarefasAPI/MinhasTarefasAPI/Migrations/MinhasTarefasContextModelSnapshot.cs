@@ -311,7 +311,7 @@ namespace MinhasTarefasAPI.Migrations
             modelBuilder.Entity("MinhasTarefasAPI.Models.Tarefa", b =>
                 {
                     b.HasOne("MinhasTarefasAPI.Models.ApplicationUser", "Usuario")
-                        .WithMany("tarefas")
+                        .WithMany("Tarefas")
                         .HasForeignKey("UsuarioId");
                 });
 #pragma warning restore 612, 618

@@ -9,8 +9,8 @@ using MinhasTarefasAPI.Database;
 namespace MinhasTarefasAPI.Migrations
 {
     [DbContext(typeof(MinhasTarefasContext))]
-    [Migration("20200110142210_TarefaSincronizacao")]
-    partial class TarefaSincronizacao
+    [Migration("20200114172124_CriacaoBanco")]
+    partial class CriacaoBanco
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -313,7 +313,7 @@ namespace MinhasTarefasAPI.Migrations
             modelBuilder.Entity("MinhasTarefasAPI.Models.Tarefa", b =>
                 {
                     b.HasOne("MinhasTarefasAPI.Models.ApplicationUser", "Usuario")
-                        .WithMany("tarefas")
+                        .WithMany("Tarefas")
                         .HasForeignKey("UsuarioId");
                 });
 #pragma warning restore 612, 618

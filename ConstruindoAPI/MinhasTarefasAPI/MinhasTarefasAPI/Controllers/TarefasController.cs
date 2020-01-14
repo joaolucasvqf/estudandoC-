@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MinhasTarefasAPI.Models;
 using MinhasTarefasAPI.Repositories.Contracts;
+using Newtonsoft.Json;
 
 namespace MinhasTarefasAPI.Controllers
 {
@@ -26,13 +27,13 @@ namespace MinhasTarefasAPI.Controllers
         {
             return Ok(new Tarefa());
         }
-        //[Authorize]
+        [Authorize]
         [HttpPost("sincronizar")]
         public ActionResult Sincronizar([FromBody]List<Tarefa> tarefas)
         {
             return Ok(_tarefaRepository.Sincronizacao(tarefas));
         }
-        //[Authorize]
+        [Authorize]
         [HttpGet("restaurar")]
         public ActionResult Restaurar(DateTime data)
         {
