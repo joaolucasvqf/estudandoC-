@@ -36,7 +36,7 @@ namespace MinhasTarefasAPI.Controllers
 
                 if (usuario != null)
                 {
-                    _signInManager.SignInAsync(usuario, false);
+                    //_signInManager.SignInAsync(usuario, false);
 
                     return Ok(BuildToken(usuario));
                 } else
