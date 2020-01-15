@@ -38,7 +38,7 @@ namespace MinhasTarefasAPI.Controllers
                 {
                     _signInManager.SignInAsync(usuario, false);
 
-                    return Ok(BuildToken(usuario);
+                    return Ok(BuildToken(usuario));
                 } else
                 {
                     return NotFound("Usuário não encontrado!");

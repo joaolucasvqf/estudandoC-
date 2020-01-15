@@ -9,8 +9,8 @@ using MinhasTarefasAPI.Database;
 namespace MinhasTarefasAPI.Migrations
 {
     [DbContext(typeof(MinhasTarefasContext))]
-    [Migration("20200110135550_BancoInicial")]
-    partial class BancoInicial
+    [Migration("20200115125227_CriacaoBanco")]
+    partial class CriacaoBanco
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -215,7 +215,7 @@ namespace MinhasTarefasAPI.Migrations
 
             modelBuilder.Entity("MinhasTarefasAPI.Models.Tarefa", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdTarefaApi")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -234,6 +234,12 @@ namespace MinhasTarefasAPI.Migrations
                     b.Property<string>("Descricao")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("Excluido")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("IdTarefaApp")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Local")
                         .HasColumnType("TEXT");
 
@@ -246,7 +252,7 @@ namespace MinhasTarefasAPI.Migrations
                     b.Property<string>("UsuarioId")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdTarefaApi");
 
                     b.HasIndex("UsuarioId");
 
@@ -307,7 +313,7 @@ namespace MinhasTarefasAPI.Migrations
             modelBuilder.Entity("MinhasTarefasAPI.Models.Tarefa", b =>
                 {
                     b.HasOne("MinhasTarefasAPI.Models.ApplicationUser", "Usuario")
-                        .WithMany("tarefas")
+                        .WithMany("Tarefas")
                         .HasForeignKey("UsuarioId");
                 });
 #pragma warning restore 612, 618
