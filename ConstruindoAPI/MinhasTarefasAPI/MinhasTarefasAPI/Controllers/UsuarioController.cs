@@ -1,6 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using MinhasTarefasAPI.Models;
 using MinhasTarefasAPI.Repositories.Contracts;
 
@@ -33,7 +38,7 @@ namespace MinhasTarefasAPI.Controllers
                 {
                     _signInManager.SignInAsync(usuario, false);
 
-                    return Ok();
+                    return Ok(BuildToken(usuario);
                 } else
                 {
                     return NotFound("Usuário não encontrado!");
@@ -74,6 +79,28 @@ namespace MinhasTarefasAPI.Controllers
             {
                 return UnprocessableEntity(ModelState);
             }
+        }
+        public object BuildToken(ApplicationUser usuario)
+        {
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Email, usuario.Email)
+            };
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("chave-api-jwt-minhas-tarefas"));
+            var sign = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var exp = DateTime.UtcNow.AddHours(1);
+
+            JwtSecurityToken token = new JwtSecurityToken(
+                issuer: null,
+                audience: null,
+                claims: claims,
+                expires: exp,
+                signingCredentials: sign
+            );
+
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
+
+            return new { token = tokenString, expiration = exp };
         }
     }
 }

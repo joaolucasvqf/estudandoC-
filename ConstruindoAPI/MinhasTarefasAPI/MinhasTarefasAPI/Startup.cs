@@ -11,6 +11,7 @@ using MinhasTarefasAPI.Models;
 using MinhasTarefasAPI.Repositories;
 using MinhasTarefasAPI.Repositories.Contracts;
 using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 namespace MinhasTarefasAPI
 {
@@ -44,6 +45,12 @@ namespace MinhasTarefasAPI
             services.AddControllers().AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });
+            services.ConfigureApplicationCookie(options => {
+                options.Events.OnRedirectToLogin = context => {
+                    context.Response.StatusCode = 401;
+                    return Task.CompletedTask;
+                };
             });
         }
 
