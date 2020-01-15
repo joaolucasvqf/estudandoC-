@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MinhasTarefasAPI.Models;
 
@@ -11,6 +10,7 @@ namespace MinhasTarefasAPI.Database
         {
 
         }
-        public Microsoft.EntityFrameworkCore.DbSet<Tarefa> Tarefas { get; set; }
+        public DbSet<Tarefa> Tarefas { get; set; }
+        public DbSet<Token> Token { get; set; }
     }
 }

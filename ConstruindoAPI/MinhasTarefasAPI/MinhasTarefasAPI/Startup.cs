@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -42,6 +43,8 @@ namespace MinhasTarefasAPI
 
             services.AddScoped<ITarefaRepository, TarefaRepository>();
 
+            services.AddScoped<ITokenRepository, TokenRepository>();
+
             services.AddControllers();
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -74,7 +77,12 @@ namespace MinhasTarefasAPI
                 );
             });
 
-            services.AddMvc()
+            services.AddMvc(config =>
+            {
+                config.ReturnHttpNotAcceptable = true; //Erro 406 - Formato não suportado
+                config.InputFormatters.Add(new XmlSerializerInputFormatter(config));
+                config.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+            })
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
             services.AddControllers().AddNewtonsoftJson(options =>
             {

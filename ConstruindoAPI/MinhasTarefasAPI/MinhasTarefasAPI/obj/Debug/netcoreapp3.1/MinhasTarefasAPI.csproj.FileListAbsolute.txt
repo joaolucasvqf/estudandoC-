@@ -143,3 +143,4 @@ C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netc
 C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netcoreapp3.1\MinhasTarefasAPI.csproj.CopyComplete
 C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netcoreapp3.1\MinhasTarefasAPI.dll
 C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netcoreapp3.1\MinhasTarefasAPI.pdb
+C:\Projetos\Joao\ConstruindoAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Debug\netcoreapp3.1\MinhasTarefasAPI.csprojAssemblyReference.cache

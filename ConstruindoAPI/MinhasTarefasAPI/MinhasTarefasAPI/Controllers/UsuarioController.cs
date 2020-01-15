@@ -16,11 +16,13 @@ namespace MinhasTarefasAPI.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioRepository _usuarioRepository;
+        private readonly ITokenRepository _tokenRepository;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
-        public UsuarioController(IUsuarioRepository usuarioRepository, SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager)
+        public UsuarioController(IUsuarioRepository usuarioRepository, ITokenRepository tokenRepository, SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager)
         {
             _usuarioRepository = usuarioRepository;
+            _tokenRepository = tokenRepository;
             _signInManager = signInManager;
             _userManager = userManager;
         }
@@ -37,9 +39,9 @@ namespace MinhasTarefasAPI.Controllers
                 if (usuario != null)
                 {
                     //_signInManager.SignInAsync(usuario, false);
-
-                    return Ok(BuildToken(usuario));
-                } else
+                    return GerarToken(usuario);
+                }
+                else
                 {
                     return NotFound("Usuário não encontrado!");
                 }
@@ -47,6 +49,21 @@ namespace MinhasTarefasAPI.Controllers
             {
                 return UnprocessableEntity(ModelState);
             }
+        }
+        [HttpPost("renovar")]
+        public ActionResult Renovar([FromBody]TokenDTO tokenDTO)
+        {
+            var refreshTokenDb = _tokenRepository.obter(tokenDTO.RefreshToken);
+            if (refreshTokenDb == null)
+                return NotFound();
+
+            refreshTokenDb.DataAtualzacao = DateTime.Now;
+            refreshTokenDb.Utilizado = true;
+            _tokenRepository.Atualizar(refreshTokenDb);
+
+            var usuario = _usuarioRepository.Obter(refreshTokenDb.UsuarioId);
+
+            return GerarToken(usuario);
         }
         [HttpPost("")]
         public ActionResult Cadastrar([FromBody]UsuarioDTO usuarioDTO)
@@ -80,7 +97,7 @@ namespace MinhasTarefasAPI.Controllers
                 return UnprocessableEntity(ModelState);
             }
         }
-        public object BuildToken(ApplicationUser usuario)
+        public TokenDTO BuildToken(ApplicationUser usuario)
         {
             var claims = new[]
             {
@@ -101,7 +118,29 @@ namespace MinhasTarefasAPI.Controllers
 
             var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 
-            return new { token = tokenString, expiration = exp };
+            var refreshToken = Guid.NewGuid().ToString();
+            var expRefeshToken = DateTime.UtcNow.AddHours(2);
+
+            var tokenDTO = new TokenDTO { Token = tokenString, Expiration = exp, RefreshToken = refreshToken, ExpirationRefreshToken = expRefeshToken };
+
+            return tokenDTO;
+        }
+        private ActionResult GerarToken(ApplicationUser usuario)
+        {
+            var token = BuildToken(usuario);
+            var tokenModel = new Token()
+            {
+                RefreshToken = token.RefreshToken,
+                ExpirationToken = token.Expiration,
+                ExpirationRefreshToken = token.ExpirationRefreshToken,
+                Usuario = usuario,
+                DataCriacao = DateTime.Now,
+                Utilizado = false
+            };
+
+            _tokenRepository.Cadastrar(tokenModel);
+
+            return Ok(token);
         }
     }
 }

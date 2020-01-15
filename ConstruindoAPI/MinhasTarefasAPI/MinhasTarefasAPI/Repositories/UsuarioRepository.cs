@@ -44,5 +44,10 @@ namespace MinhasTarefasAPI.Repositories
                 throw new Exception($"Falha ao cadastrar usuário {sb.ToString()}");
             }
         }
+
+        public ApplicationUser Obter(string id)
+        {
+            return _userManager.FindByIdAsync(id).Result;
+        }
     }
 }
