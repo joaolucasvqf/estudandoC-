@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.exe
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.deps.json
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.runtimeconfig.json
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.runtimeconfig.dev.json
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.dll
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.pdb
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\00_Bibliotca.dll
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\00_Bibliotca.pdb
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.csprojAssemblyReference.cache
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.AssemblyInfo.cs
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.csproj.CopyComplete
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.dll
+C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.pdb

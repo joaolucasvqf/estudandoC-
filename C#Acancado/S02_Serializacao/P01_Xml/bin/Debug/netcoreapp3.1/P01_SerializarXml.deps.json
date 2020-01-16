@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "P01_SerializarXml/1.0.0": {
+        "dependencies": {
+          "00_Bibliotca": "1.0.0"
+        },
+        "runtime": {
+          "P01_SerializarXml.dll": {}
+        }
+      },
+      "00_Bibliotca/1.0.0": {
+        "runtime": {
+          "00_Bibliotca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P01_SerializarXml/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "00_Bibliotca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
