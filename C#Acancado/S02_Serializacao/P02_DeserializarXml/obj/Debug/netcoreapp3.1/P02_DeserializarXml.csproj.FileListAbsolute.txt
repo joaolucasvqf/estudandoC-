@@ -12,3 +12,17 @@ C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcor
 C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.csproj.CopyComplete
 C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.dll
 C:\Users\User\source\repos\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.exe
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.deps.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.runtimeconfig.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.runtimeconfig.dev.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\P02_DeserializarXml.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\00_Bibliotca.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\bin\Debug\netcoreapp3.1\00_Bibliotca.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.AssemblyInfo.cs
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.csproj.CopyComplete
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P02_DeserializarXml\obj\Debug\netcoreapp3.1\P02_DeserializarXml.pdb

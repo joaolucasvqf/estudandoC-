@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\S02_Serializacao\\P01_Xml\\P01_SerializarXml.csproj": {}
+    "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\P01_Xml\\P01_SerializarXml.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\S02_Serializacao\\00\\00_Bibliotca.csproj": {
+    "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\00\\00_Bibliotca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\S02_Serializacao\\00\\00_Bibliotca.csproj",
+        "projectUniqueName": "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\00\\00_Bibliotca.csproj",
         "projectName": "00_Bibliotca",
-        "projectPath": "C:\\Users\\User\\source\\repos\\S02_Serializacao\\00\\00_Bibliotca.csproj",
+        "projectPath": "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\00\\00_Bibliotca.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\S02_Serializacao\\00\\obj\\",
+        "outputPath": "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\00\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -62,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\S02_Serializacao\\P01_Xml\\P01_SerializarXml.csproj": {
+    "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\P01_Xml\\P01_SerializarXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\S02_Serializacao\\P01_Xml\\P01_SerializarXml.csproj",
+        "projectUniqueName": "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\P01_Xml\\P01_SerializarXml.csproj",
         "projectName": "P01_SerializarXml",
-        "projectPath": "C:\\Users\\User\\source\\repos\\S02_Serializacao\\P01_Xml\\P01_SerializarXml.csproj",
+        "projectPath": "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\P01_Xml\\P01_SerializarXml.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\S02_Serializacao\\P01_Xml\\obj\\",
+        "outputPath": "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\P01_Xml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +92,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\S02_Serializacao\\00\\00_Bibliotca.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\S02_Serializacao\\00\\00_Bibliotca.csproj"
+              "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\00\\00_Bibliotca.csproj": {
+                "projectPath": "C:\\Projetos\\Joao\\C#Acancado\\S02_Serializacao\\00\\00_Bibliotca.csproj"
               }
             }
           }
@@ -102,6 +106,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

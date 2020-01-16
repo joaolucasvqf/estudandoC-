@@ -6,3 +6,11 @@ C:\Users\User\source\repos\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibli
 C:\Users\User\source\repos\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibliotca.AssemblyInfo.cs
 C:\Users\User\source\repos\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibliotca.dll
 C:\Users\User\source\repos\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibliotca.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\00\bin\Debug\netstandard2.0\00_Bibliotca.deps.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\00\bin\Debug\netstandard2.0\00_Bibliotca.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\00\bin\Debug\netstandard2.0\00_Bibliotca.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibliotca.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibliotca.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibliotca.AssemblyInfo.cs
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibliotca.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\00\obj\Debug\netstandard2.0\00_Bibliotca.pdb

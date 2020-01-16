@@ -1,0 +1,15 @@
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\P04_DeserializarJSON.exe
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\obj\Debug\netcoreapp3.1\P04_DeserializarJSON.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\obj\Debug\netcoreapp3.1\P04_DeserializarJSON.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\obj\Debug\netcoreapp3.1\P04_DeserializarJSON.AssemblyInfo.cs
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\P04_DeserializarJSON.deps.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\P04_DeserializarJSON.runtimeconfig.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\P04_DeserializarJSON.runtimeconfig.dev.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\P04_DeserializarJSON.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\P04_DeserializarJSON.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\00_Bibliotca.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\bin\Debug\netcoreapp3.1\00_Bibliotca.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\obj\Debug\netcoreapp3.1\P04_DeserializarJSON.csproj.CopyComplete
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\obj\Debug\netcoreapp3.1\P04_DeserializarJSON.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P04_DeserializarJSON\obj\Debug\netcoreapp3.1\P04_DeserializarJSON.pdb

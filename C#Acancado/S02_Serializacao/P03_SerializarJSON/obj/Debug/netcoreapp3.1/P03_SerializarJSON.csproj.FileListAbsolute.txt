@@ -1,0 +1,17 @@
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\P03_SerializarJSON.exe
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\00_Bibliotca.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\00_Bibliotca.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\obj\Debug\netcoreapp3.1\P03_SerializarJSON.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\obj\Debug\netcoreapp3.1\P03_SerializarJSON.Properties.Resources.resources
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\obj\Debug\netcoreapp3.1\P03_SerializarJSON.csproj.GenerateResource.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\obj\Debug\netcoreapp3.1\P03_SerializarJSON.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\obj\Debug\netcoreapp3.1\P03_SerializarJSON.AssemblyInfo.cs
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\obj\Debug\netcoreapp3.1\P03_SerializarJSON.csproj.CopyComplete
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\P03_SerializarJSON.deps.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\P03_SerializarJSON.runtimeconfig.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\P03_SerializarJSON.runtimeconfig.dev.json
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\P03_SerializarJSON.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\bin\Debug\netcoreapp3.1\P03_SerializarJSON.pdb
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\obj\Debug\netcoreapp3.1\P03_SerializarJSON.dll
+C:\Projetos\Joao\C#Acancado\S02_Serializacao\P03_SerializarJSON\obj\Debug\netcoreapp3.1\P03_SerializarJSON.pdb
