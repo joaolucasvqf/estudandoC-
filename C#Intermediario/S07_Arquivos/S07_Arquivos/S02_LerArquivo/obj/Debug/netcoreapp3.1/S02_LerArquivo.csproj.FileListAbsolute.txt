@@ -1,0 +1,11 @@
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\bin\Debug\netcoreapp3.1\S02_LerArquivo.exe
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\bin\Debug\netcoreapp3.1\S02_LerArquivo.deps.json
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\bin\Debug\netcoreapp3.1\S02_LerArquivo.runtimeconfig.json
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\bin\Debug\netcoreapp3.1\S02_LerArquivo.runtimeconfig.dev.json
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\bin\Debug\netcoreapp3.1\S02_LerArquivo.dll
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\bin\Debug\netcoreapp3.1\S02_LerArquivo.pdb
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\obj\Debug\netcoreapp3.1\S02_LerArquivo.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\obj\Debug\netcoreapp3.1\S02_LerArquivo.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\obj\Debug\netcoreapp3.1\S02_LerArquivo.AssemblyInfo.cs
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\obj\Debug\netcoreapp3.1\S02_LerArquivo.dll
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\S02_LerArquivo\obj\Debug\netcoreapp3.1\S02_LerArquivo.pdb

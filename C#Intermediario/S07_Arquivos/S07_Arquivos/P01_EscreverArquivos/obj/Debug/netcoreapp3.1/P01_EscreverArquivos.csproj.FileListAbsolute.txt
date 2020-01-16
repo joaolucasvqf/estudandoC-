@@ -1,0 +1,11 @@
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\bin\Debug\netcoreapp3.1\P01_EscreverArquivos.exe
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\bin\Debug\netcoreapp3.1\P01_EscreverArquivos.deps.json
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\bin\Debug\netcoreapp3.1\P01_EscreverArquivos.runtimeconfig.json
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\bin\Debug\netcoreapp3.1\P01_EscreverArquivos.runtimeconfig.dev.json
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\bin\Debug\netcoreapp3.1\P01_EscreverArquivos.dll
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\bin\Debug\netcoreapp3.1\P01_EscreverArquivos.pdb
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\obj\Debug\netcoreapp3.1\P01_EscreverArquivos.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\obj\Debug\netcoreapp3.1\P01_EscreverArquivos.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\obj\Debug\netcoreapp3.1\P01_EscreverArquivos.AssemblyInfo.cs
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\obj\Debug\netcoreapp3.1\P01_EscreverArquivos.dll
+C:\Projetos\Joao\C#Intermediario\S07_Arquivos\S07_Arquivos\P01_EscreverArquivos\obj\Debug\netcoreapp3.1\P01_EscreverArquivos.pdb
