@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -24,28 +25,49 @@ namespace TalkToApi.V1.Controllers
         public UsuarioController(IUsuarioRepository usuarioRepository, ITokenRepository tokenRepository, SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager)
         {
             _usuarioRepository = usuarioRepository;
-            _tokenRepository = tokenRepository;
             _signInManager = signInManager;
             _userManager = userManager;
+            _tokenRepository = tokenRepository;
         }
+
+        [HttpGet("")]
+        public ActionResult ObterTodos()
+        {
+            return Ok(_userManager.Users);
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult ObterUsuario(string id)
+        {
+            var usuario = _userManager.FindByIdAsync(id);
+
+            if (usuario == null)
+                return NotFound();
+
+            return Ok(usuario);
+        }
+
         [HttpPost("login")]
         public ActionResult Login([FromBody]UsuarioDTO usuarioDTO)
         {
-            ModelState.Remove("ConfirmacaoSenha");
             ModelState.Remove("Nome");
+            ModelState.Remove("ConfirmacaoSenha");
 
             if (ModelState.IsValid)
             {
                 ApplicationUser usuario = _usuarioRepository.Obter(usuarioDTO.Email, usuarioDTO.Senha);
-
                 if (usuario != null)
                 {
-                    //_signInManager.SignInAsync(usuario, false);
+                    //Login no Identity
+                    _signInManager.SignInAsync(usuario, false);
+
+
+                    //retorna o Token (JWT)
                     return GerarToken(usuario);
                 }
                 else
                 {
-                    return NotFound("Usuário não encontrado!");
+                    return NotFound("Usuário não localizado!");
                 }
             }
             else
@@ -53,21 +75,28 @@ namespace TalkToApi.V1.Controllers
                 return UnprocessableEntity(ModelState);
             }
         }
+
+
+
         [HttpPost("renovar")]
         public ActionResult Renovar([FromBody]TokenDTO tokenDTO)
         {
-            var refreshTokenDb = _tokenRepository.obter(tokenDTO.RefreshToken);
-            if (refreshTokenDb == null)
+            var refreshTokenDB = _tokenRepository.Obter(tokenDTO.RefreshToken);
+
+            if (refreshTokenDB == null)
                 return NotFound();
 
-            refreshTokenDb.DataAtualzacao = DateTime.Now;
-            refreshTokenDb.Utilizado = true;
-            _tokenRepository.Atualizar(refreshTokenDb);
+            //RefreshToken antigo - Atualizar - Desativar esse refreshToken
+            refreshTokenDB.DataAtualzacao = DateTime.Now;
+            refreshTokenDB.Utilizado = true;
+            _tokenRepository.Atualizar(refreshTokenDB);
 
-            var usuario = _usuarioRepository.Obter(refreshTokenDb.UsuarioId);
+            //Gerar um novo Token/Refresh Token - Salvar.
+            var usuario = _usuarioRepository.Obter(refreshTokenDB.UsuarioId);
 
             return GerarToken(usuario);
         }
+
         [HttpPost("")]
         public ActionResult Cadastrar([FromBody]UsuarioDTO usuarioDTO)
         {
@@ -100,14 +129,62 @@ namespace TalkToApi.V1.Controllers
                 return UnprocessableEntity(ModelState);
             }
         }
-        public TokenDTO BuildToken(ApplicationUser usuario)
+
+        /*
+         * api/usuario/{id} -> PUT
+         */
+        //[Authorize]
+        [HttpPut("{id}")]
+        public ActionResult Atualizar(string id, [FromBody]UsuarioDTO usuarioDTO)
         {
-            var claims = new[]
+            //TODO - Adicionar Filtro de Validação
+            ApplicationUser usuario = _userManager.GetUserAsync(HttpContext.User).Result;
+            if (usuario.Id != id)
             {
+                return Forbid();
+            }
+
+            if (ModelState.IsValid)
+            {
+                //TODO - Refatorar para AutoMapper.
+                usuario.FullName = usuarioDTO.Nome;
+                usuario.UserName = usuarioDTO.Email;
+                usuario.Email = usuarioDTO.Email;
+                usuario.Slogan = usuarioDTO.Slogan;
+
+                //TODO - Remover no Identity critérios da senha.
+                var resultado = _userManager.UpdateAsync(usuario).Result;
+                _userManager.RemovePasswordAsync(usuario);
+                _userManager.AddPasswordAsync(usuario, usuarioDTO.Senha);
+
+                if (!resultado.Succeeded)
+                {
+                    List<string> erros = new List<string>();
+                    foreach (var erro in resultado.Errors)
+                    {
+                        erros.Add(erro.Description);
+                    }
+                    return UnprocessableEntity(erros);
+                }
+                else
+                {
+                    return Ok(usuario);
+                }
+            }
+            else
+            {
+                return UnprocessableEntity(ModelState);
+            }
+        }
+
+        private TokenDTO BuildToken(ApplicationUser usuario)
+        {
+            var claims = new[] {
                 new Claim(JwtRegisteredClaimNames.Email, usuario.Email),
                 new Claim(JwtRegisteredClaimNames.Sub, usuario.Id)
             };
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("chave-api-jwt-minhas-tarefas"));
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("chave-api-jwt-minhas-tarefas")); //Recomendo -> appsettings.json
             var sign = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             var exp = DateTime.UtcNow.AddHours(1);
 
@@ -122,27 +199,28 @@ namespace TalkToApi.V1.Controllers
             var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 
             var refreshToken = Guid.NewGuid().ToString();
-            var expRefeshToken = DateTime.UtcNow.AddHours(2);
+            var expRefreshToken = DateTime.UtcNow.AddHours(2);
 
-            var tokenDTO = new TokenDTO { Token = tokenString, Expiration = exp, RefreshToken = refreshToken, ExpirationRefreshToken = expRefeshToken };
+            var tokenDTO = new TokenDTO { Token = tokenString, Expiration = exp, RefreshToken = refreshToken, ExpirationRefreshToken = expRefreshToken };
 
             return tokenDTO;
         }
+
         private ActionResult GerarToken(ApplicationUser usuario)
         {
             var token = BuildToken(usuario);
+
+            //Salvar o Token no Banco
             var tokenModel = new Token()
             {
                 RefreshToken = token.RefreshToken,
                 ExpirationToken = token.Expiration,
                 ExpirationRefreshToken = token.ExpirationRefreshToken,
                 Usuario = usuario,
-                DataCriacao = DateTime.Now,
                 Utilizado = false
             };
 
             _tokenRepository.Cadastrar(tokenModel);
-
             return Ok(token);
         }
     }

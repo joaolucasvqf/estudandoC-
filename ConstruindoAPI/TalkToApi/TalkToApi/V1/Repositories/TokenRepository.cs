@@ -15,7 +15,7 @@ namespace TalkToApi.V1.Repositories
         {
             _banco = banco;
         }
-        public Token obter(string refreshToken)
+        public Token Obter(string refreshToken)
         {
             return _banco.Tokens.FirstOrDefault(a => a.RefreshToken == refreshToken && a.Utilizado == false);
         }

@@ -148,3 +148,6 @@ C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Micr
 C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
 C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\obj\Debug\netcoreapp3.1\TalkToApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\obj\Debug\netcoreapp3.1\TalkToApi.MvcApplicationPartsAssemblyInfo.cache

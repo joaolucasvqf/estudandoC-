@@ -52,6 +52,7 @@ namespace TalkToApi
             });
             /* Injeção do repositories */
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IMensagemRepository, MensagemRepository>();
             services.AddScoped<ITokenRepository, TokenRepository>();
 
             services.AddDbContext<TalkToContext>(cfg =>
@@ -62,8 +63,8 @@ namespace TalkToApi
             services.AddMvc(config =>
             {
                 config.ReturnHttpNotAcceptable = true; //Erro 406 - Formato não suportado
-                config.InputFormatters.Add(new XmlSerializerInputFormatter(config));
-                config.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+                //config.InputFormatters.Add(new XmlSerializerInputFormatter(config));xml
+                //config.OutputFormatters.Add(new XmlSerializerOutputFormatter());
             })
                 .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddControllers().AddNewtonsoftJson(options =>
