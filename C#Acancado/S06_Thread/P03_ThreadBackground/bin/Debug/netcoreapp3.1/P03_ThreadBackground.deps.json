@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "P03_ThreadBackground/1.0.0": {
+        "runtime": {
+          "P03_ThreadBackground.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P03_ThreadBackground/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

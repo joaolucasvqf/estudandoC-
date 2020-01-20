@@ -1,0 +1,11 @@
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\bin\Debug\netcoreapp3.1\P01_Thread.exe
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\bin\Debug\netcoreapp3.1\P01_Thread.deps.json
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\bin\Debug\netcoreapp3.1\P01_Thread.runtimeconfig.json
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\bin\Debug\netcoreapp3.1\P01_Thread.runtimeconfig.dev.json
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\bin\Debug\netcoreapp3.1\P01_Thread.dll
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\bin\Debug\netcoreapp3.1\P01_Thread.pdb
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\obj\Debug\netcoreapp3.1\P01_Thread.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\obj\Debug\netcoreapp3.1\P01_Thread.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\obj\Debug\netcoreapp3.1\P01_Thread.AssemblyInfo.cs
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\obj\Debug\netcoreapp3.1\P01_Thread.dll
+C:\Projetos\Joao\C#Acancado\S06_Thread\P01_Thread\obj\Debug\netcoreapp3.1\P01_Thread.pdb

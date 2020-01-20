@@ -1,0 +1,13 @@
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\obj\Debug\netcoreapp3.1\P01_Gererics.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\obj\Debug\netcoreapp3.1\P01_Gererics.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\obj\Debug\netcoreapp3.1\P01_Gererics.AssemblyInfo.cs
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\bin\Debug\netcoreapp3.1\P01_Gererics.exe
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\bin\Debug\netcoreapp3.1\P01_Gererics.deps.json
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\bin\Debug\netcoreapp3.1\P01_Gererics.runtimeconfig.json
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\bin\Debug\netcoreapp3.1\P01_Gererics.runtimeconfig.dev.json
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\bin\Debug\netcoreapp3.1\P01_Gererics.dll
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\bin\Debug\netcoreapp3.1\P01_Gererics.pdb
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\obj\Debug\netcoreapp3.1\P01_Gererics.csproj.CopyComplete
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\obj\Debug\netcoreapp3.1\P01_Gererics.dll
+C:\Projetos\Joao\C#Acancado\S03_Gererics\P01_Gererics\obj\Debug\netcoreapp3.1\P01_Gererics.pdb

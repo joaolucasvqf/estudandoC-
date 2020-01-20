@@ -1,0 +1,11 @@
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\bin\Debug\netcoreapp3.1\P03_ThreadBackground.exe
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\bin\Debug\netcoreapp3.1\P03_ThreadBackground.deps.json
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\bin\Debug\netcoreapp3.1\P03_ThreadBackground.runtimeconfig.json
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\bin\Debug\netcoreapp3.1\P03_ThreadBackground.runtimeconfig.dev.json
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\bin\Debug\netcoreapp3.1\P03_ThreadBackground.dll
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\bin\Debug\netcoreapp3.1\P03_ThreadBackground.pdb
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\obj\Debug\netcoreapp3.1\P03_ThreadBackground.csprojAssemblyReference.cache
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\obj\Debug\netcoreapp3.1\P03_ThreadBackground.AssemblyInfoInputs.cache
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\obj\Debug\netcoreapp3.1\P03_ThreadBackground.AssemblyInfo.cs
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\obj\Debug\netcoreapp3.1\P03_ThreadBackground.dll
+C:\Projetos\Joao\C#Acancado\S06_Thread\P03_ThreadBackground\obj\Debug\netcoreapp3.1\P03_ThreadBackground.pdb

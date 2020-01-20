@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -16,6 +17,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using TalkToApi.Database;
+using TalkToApi.Helpers;
 using TalkToApi.V1.Models;
 using TalkToApi.V1.Repositories;
 using TalkToApi.V1.Repositories.Contracts;
@@ -35,6 +37,13 @@ namespace TalkToApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region
+            var config = new MapperConfiguration(cfg => {
+                cfg.AddProfile(new DTOMapperProfile());
+            });
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
+            #endregion
             services.Configure<ApiBehaviorOptions>(op => {
                 op.SuppressModelStateInvalidFilter = true;
             });

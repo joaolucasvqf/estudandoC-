@@ -144,3 +144,7 @@ C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Swas
 C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Projetos\Joao\ConstruindoAPI\TalkToApi\TalkToApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
