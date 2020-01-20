@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using TalkToApi.V1.Models;
+using TalkToApi.V1.Models.DTO;
 using TalkToApi.V1.Repositories.Contracts;
 
 namespace TalkToApi.V1.Controllers

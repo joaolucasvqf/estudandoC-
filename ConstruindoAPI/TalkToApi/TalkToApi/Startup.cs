@@ -19,6 +19,7 @@ using System.Threading.Tasks;
 using TalkToApi.Database;
 using TalkToApi.Helpers;
 using TalkToApi.V1.Models;
+using TalkToApi.V1.Models.DTO;
 using TalkToApi.V1.Repositories;
 using TalkToApi.V1.Repositories.Contracts;
 
@@ -38,20 +39,23 @@ namespace TalkToApi
         public void ConfigureServices(IServiceCollection services)
         {
             #region
-            var config = new MapperConfiguration(cfg => {
+            var config = new MapperConfiguration(cfg =>
+            {
                 cfg.AddProfile(new DTOMapperProfile());
             });
             IMapper mapper = config.CreateMapper();
             services.AddSingleton(mapper);
             #endregion
-            services.Configure<ApiBehaviorOptions>(op => {
+            services.Configure<ApiBehaviorOptions>(op =>
+            {
                 op.SuppressModelStateInvalidFilter = true;
             });
             /* Injeção do repositories */
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<ITokenRepository, TokenRepository>();
 
-            services.AddDbContext<TalkToContext>(cfg => {
+            services.AddDbContext<TalkToContext>(cfg =>
+            {
                 cfg.UseSqlite("Data Source=Database\\TalkTo.db");
             });
 
@@ -67,7 +71,8 @@ namespace TalkToApi
                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
             });
 
-            services.AddApiVersioning(cfg => {
+            services.AddApiVersioning(cfg =>
+            {
                 cfg.ReportApiVersions = true;
 
                 //cfg.ApiVersionReader = new HeaderApiVersionReader("api-version");
@@ -75,7 +80,8 @@ namespace TalkToApi
                 cfg.DefaultApiVersion = new ApiVersion(1, 0);
             });
 
-            services.AddSwaggerGen(cfg => {
+            services.AddSwaggerGen(cfg =>
+            {
                 cfg.SwaggerDoc("v1.0", new OpenApiInfo
                 {
                     Title = "TalkTo API - V1.0",
@@ -93,7 +99,8 @@ namespace TalkToApi
                     .AddEntityFrameworkStores<TalkToContext>()
                     .AddDefaultTokenProviders();
 
-            services.AddAuthentication().AddJwtBearer(options => {
+            services.AddAuthentication().AddJwtBearer(options =>
+            {
                 options.TokenValidationParameters = new TokenValidationParameters()
                 {
                     ValidateIssuer = false,
@@ -104,7 +111,8 @@ namespace TalkToApi
                 };
             });
 
-            services.AddAuthorization(auth => {
+            services.AddAuthorization(auth =>
+            {
                 auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
                                              .AddAuthenticationSchemes()
                                              .RequireAuthenticatedUser()
@@ -113,8 +121,10 @@ namespace TalkToApi
             });
 
 
-            services.ConfigureApplicationCookie(options => {
-                options.Events.OnRedirectToLogin = context => {
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Events.OnRedirectToLogin = context =>
+                {
                     context.Response.StatusCode = 401;
                     return Task.CompletedTask;
                 };
@@ -138,6 +148,10 @@ namespace TalkToApi
             app.UseAuthorization();
 
             app.UseAuthentication();
+
+            app.UseHttpsRedirection();
+
+            app.UseStatusCodePages();
 
             app.UseEndpoints(endpoints =>
             {
