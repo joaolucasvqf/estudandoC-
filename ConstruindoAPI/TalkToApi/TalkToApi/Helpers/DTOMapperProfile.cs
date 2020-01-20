@@ -16,7 +16,8 @@ namespace TalkToApi.Helpers
                         src => src.FullName
                     )
                 );
-            //CreateMap<PaginationList<Palavra>, PaginationList<PalavraDTO>>();
+
+            CreateMap<Mensagem, MensagemDTO>();
         }
     }
 }

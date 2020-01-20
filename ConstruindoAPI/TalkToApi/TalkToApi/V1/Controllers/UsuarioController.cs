@@ -152,7 +152,7 @@ namespace TalkToApi.V1.Controllers
                     usuarioDTOdb.Links.Add(
                         new LinkDTO("_atualizar", Url.Link("Atualizar", new { id = usuario.Id }), "PUT"));
 
-                    return Ok(usuario);
+                    return Ok(usuarioDTOdb);
                 }
 
             }
