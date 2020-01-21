@@ -55,6 +55,17 @@ namespace TalkToApi
             services.AddScoped<IMensagemRepository, MensagemRepository>();
             services.AddScoped<ITokenRepository, TokenRepository>();
 
+            services.AddCors(cfg =>
+            {
+                cfg.AddDefaultPolicy(policy =>
+                {
+                    policy
+                        .WithOrigins("https://localhost:44304, https://localhost:44384")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                });
+            });
+
             services.AddDbContext<TalkToContext>(cfg =>
             {
                 cfg.UseSqlite("Data Source=Database\\TalkTo.db");
@@ -143,6 +154,8 @@ namespace TalkToApi
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors();
 
             app.UseRouting();
 
